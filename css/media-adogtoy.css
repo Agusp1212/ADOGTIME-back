@@ -1,0 +1,116 @@
+@media only screen and (max-width: 600px) {
+    /* CONTENIDO */
+    #adogtoy-s2 {
+        grid-template-columns: repeat(2, minmax(25vw, 1fr));
+        gap: 5vh;
+        margin-top: 5vh;
+    }
+    #adogtoy-s2 img {
+        width: 35vw;
+    }
+    #adogtoy-s2 p {
+        font-size: 2.5vw;
+    }
+    #adogtoy-s2 .card ul {
+        margin-top: 1vh;
+        margin-left: 1vw;
+        font-size: 2vw;
+        
+    }
+    #adogtoy-s2 .card {
+        width: 35vw;
+        height: auto;
+    }
+    #back {
+        padding: 0vh;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    /* CONTENIDO */
+    #adogtoy-s2 {
+        grid-template-columns: repeat(2, minmax(25vw, 1fr));
+        gap: 5vh;
+        margin-top: 5vh;
+    }
+    #adogtoy-s2 img {
+        width: 35vw;
+    }
+    #adogtoy-s2 p {
+        font-size: 2.5vw;
+    }
+    #adogtoy-s2 .card ul {
+        margin-top: 1vh;
+        margin-left: 1vw;
+        font-size: 2vw;
+        
+    }
+    #adogtoy-s2 .card {
+        width: 35vw;
+        height: auto;
+    }
+    #back {
+        padding: 0vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* CONTENIDO */
+    #adogtoy-s2 {
+        grid-template-columns: repeat(2, minmax(25vw, 1fr));
+        gap: 10vh;
+        margin-top: 5vh;
+    }
+    #adogtoy-s2 img {
+        width: 25vw;
+    }
+    #adogtoy-s2 p {
+        font-size: 2vw;
+    }
+    #adogtoy-s2 .card ul {
+        margin-top: 1vh;
+        margin-left: 1vw;
+        font-size: 1.5vw;
+        
+    }
+    #adogtoy-s2 .card {
+        width: 25vw;
+        height: auto;
+    }
+    #back {
+        padding: 0vh;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CONTENIDO */
+    #adogtoy-s2 {
+        grid-template-columns: repeat(2, minmax(25vw, 1fr));
+        gap: 10vh;
+        margin-top: 5vh;
+    }
+    #adogtoy-s2 img {
+        width: 25vw;
+    }
+    #adogtoy-s2 p {
+        font-size: 2vw;
+    }
+    #adogtoy-s2 .card ul {
+        margin-top: 1vh;
+        margin-left: 1vw;
+        font-size: 1.5vw;
+        
+    }
+    #adogtoy-s2 .card {
+        width: 25vw;
+        height: auto;
+    }
+    #back {
+        padding: 0vh;
+    }
+}
+@media only screen and (min-width: 1900px) {
+    /* CONTENIDO */
+    #adogtoy-s2 {
+        margin-top: 20vh;
+    }
+}

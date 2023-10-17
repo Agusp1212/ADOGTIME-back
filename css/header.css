@@ -1,0 +1,65 @@
+/* -------------------HEADER----------------------- */
+header {
+    background-color: #025C38;
+    height: 8vh;
+    color: rgba(255, 255, 255, 0.807);
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-div1 {
+    width: 2.5vw;
+    height: auto;
+    margin-left: 4vw;
+    position: relative;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation: logoOpacity 4s infinite;
+}
+
+@keyframes logoOpacity {
+    0%, 100% {
+      opacity: 0;
+      z-index: -1;
+    }
+    50% {
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+
+#logo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-delay: 2s;
+}
+
+
+nav {
+    display: flex;
+    gap: 4vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Paytone";
+    font-size: 1vw;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FCA503;
+}
+
+/* elementos del encabezado permanecen ocultos hasta que se activa función en js */
+.hidden {
+    display: none;
+}
